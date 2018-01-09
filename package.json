@@ -75,9 +75,7 @@
   },
   "scripts": {
 
-    "dev": "node scripts/start.js",
-    "postinstall":"webpack -p",
-    "start":"node server.js",
+    "start": "node scripts/start.js",
     "build": "react-scripts build",
     "test": "NODE_PATH=./src node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
